@@ -75,15 +75,6 @@ celerybeat-schedule.*
 # SageMath parsed files
 *.sage.py
 
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
 # mkdocs documentation
 /site
 
@@ -96,6 +87,15 @@ venv.bak/
 *.stTheme.cache
 *.sublime-workspace
 *.sublime-project
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
 # sftp configuration file
 sftp-config.json
