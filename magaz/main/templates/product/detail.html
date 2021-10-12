@@ -1,0 +1,10 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+
+{% block content %}
+        {{ product.name }}
+        {{ product.category.get_absolute_url }}{{ product.category }}
+        <p>Цена: {{ product.price }} руб.</p>
+        {{ product.description|linebreaks }}
+{% endblock content %}
