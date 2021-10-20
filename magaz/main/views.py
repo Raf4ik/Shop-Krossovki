@@ -7,3 +7,4 @@ class ProductListView(ListView):
     context_object_name = 'products'
     model = Product
 
+
